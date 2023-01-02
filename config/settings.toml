@@ -1,0 +1,20 @@
+[dev]
+AWS_ACCOUNT = "change-me"
+AWS_REGION = "us-change-me-2"
+PROJECT_NAME = "mario-workshop"
+ENV = "dev"
+NETWORK_READONLY = "false"
+name = "dev_workshop_mario"
+ssm__new = "/add-me/cdk/test"
+ssm__test = "/add-me/test"
+
+[stage]
+AWS_ACCOUNT = "change-me"
+AWS_REGION = "us-change-me-1"
+PROJECT_NAME = "mario-workshop"
+ENV = "stage"
+NETWORK_READONLY = "true"
+name = "stage_workshop_mario"
+[stage.ssm]
+new = "/cdk/test"
+test = "/stage/ecs-service/service-test/hash"

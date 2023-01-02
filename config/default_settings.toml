@@ -1,0 +1,12 @@
+# These are the first values loaded
+
+[default]
+smm = {name = "my_default_name"}     # You can use TOML dict like format
+PROJECT_NAME = "cdk-workshop"
+DEBUG = true
+name = "MyfirstWorkshop"
+
+# [default.ssm]  # scoped sections also works
+# name = "my_default_name"
+
+# NOW go and read the `configs/settings.toml` file
