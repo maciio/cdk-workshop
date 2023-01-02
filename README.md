@@ -1,7 +1,6 @@
+# cdk-workshop -- Welcome to your CDK Python project!
 
-# Welcome to your CDK Python project!
-
-This is a blank project for CDK development with Python.
+This a simple cdk project that uses dynaconf for multiple enviroments with Python
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
